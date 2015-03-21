@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode title="Home"  conttroller="Home" action="Index" >
+      <siteMapNode title="Register"  controller="Home" action="Register"/>
+      <siteMapNode title="Login"  controller="Home" action="Login"/>
+
+    </siteMapNode>
+
+
+
+    <mvcSiteMapNode title="About"  controller="About" action="About" >
+  </siteMapNode>
+
+  <mvcSiteMapNode title="Contact"  controller="Contact" action="Contact">
+
+    </siteMapNode>
+  
+</siteMap>
